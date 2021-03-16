@@ -1,0 +1,3 @@
+[submodule "src/anymal_planning"]
+	path = src/anymal_planning
+	url = https://github.com/shuoli-robotics/anymal_planning.git
