@@ -1,0 +1,3 @@
+<launch>
+	<node name="test_node" pkg="anymal_planner" type="test_node" /> 	
+</launch>

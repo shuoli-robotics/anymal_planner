@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+from test_pkg import test as T
+
+if __name__ == '__main__':
+    print("[test_pkg/test_node] executing test() in test_pkg")
+    T.test_fun()
+
