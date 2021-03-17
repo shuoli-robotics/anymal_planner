@@ -1,0 +1,12 @@
+#!/usr/bin/env python
+
+from anymal_planning import astar_LIP as astar
+from anymal_planning.point_cloud import * 
+
+if __name__ == '__main__':
+    zmp_0 = (2.0,1.0,0.)
+    zmp_f = (9.0,9,0)
+    anyAStar = astar.AnymalAStar(zmp_0,zmp_f)
+    anyAStar.run()
+    optimalPath = anyAStar.getOptimalPath()
+    anyAStar.plot_result()
